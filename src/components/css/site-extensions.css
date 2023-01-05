@@ -1,0 +1,19 @@
+.Header {
+    text-align: center;
+    width: 100%;
+    background-color: #f1f1f1;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.HeaderTextBox {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: auto;
+}
+
+.Body {
+    padding: 10px;
+}

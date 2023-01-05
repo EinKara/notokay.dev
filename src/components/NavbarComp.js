@@ -1,19 +1,32 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
+
+import { 
+    Route, 
+    Link,
+    BrowserRouter, 
+    Routes
+  } from "react-router-dom";
+
+// CSS 
+import './css/border.css'
+import './css/dark-theme.css'
 
 export default class NavbarComp extends Component {
     render() {
         return (
-            <div>
-                <Navbar bg="dark" expand="lg">
+            <div className='rotating-border rotating-border--google'>
+                <Navbar bg="dark" variant="dark" expand="lg" className="Navbar">
                     <Navbar.Brand href="#home">NKDEV</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#donate">Donate</Nav.Link>
+                        <Nav className='me-auto'>
+                            <Nav.Link as={Link} to="/">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link as={Link} to="/donate">Donate</Nav.Link>
+                        </Nav>
                     </Navbar.Collapse>
-                </Navbar>
+                </Navbar>          
             </div>
         )
     }
