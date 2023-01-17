@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100&family=Nabla&display=swap');
+
+.Header {
+    text-align: center;
+    width: 100%;
+
+    background: linear-gradient(135deg,
+        #e8a3ff 0%, #ffffff 50%, #9fccff 100%);
+
+    background: #FFFFEA;
+
+    background-repeat: repeat;
+
+    box-shadow: 0px 5px 5px #c0c0c0;
+}
+
+.HeaderTextBox {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: auto;
+}
+
+.HeaderTextBox > h1 {
+    color: #606060;
+    font-family: 'Archivo Black', sans-serif;
+    /*text-shadow: 1px 1px 2px #ff9d9d, 0 0 25px #9fccff, 0 0 5px #e8a3ff;*/
+}
+
+.HeaderTextBox > h5 {
+    color: #606060;
+    font-family: 'Archivo', sans-serif;
+}

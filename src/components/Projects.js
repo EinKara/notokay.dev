@@ -17,21 +17,25 @@ import PostBox from "./elements/PostBox";
 
 import HeaderBox from "./elements/HeaderBox";
 
-
-export default class Home extends Component {
+export default class Projects extends Component {
     render() {
         return (
             <div className="Page">
-                <HeaderBox title="Home" subtitle="Homed Page" />
+                <HeaderBox title="Projects" subtitle=">:(" />
 
                 <Container fluid>
                 <div className="Body">
                     <Row>
-                    
+                    <Col className="posts">
+                        <PostBox
+                        title='NKDEV'
+                        imgsrc='test-post.png'
+                        url="#">notokay.dev website. These buttons are supposed to bring you to a new page, however I have not finished that part.</PostBox>
+                    </Col>
                     </Row>
                 </div>
                 </Container>
             </div>
-        )
+        );
     }
 }

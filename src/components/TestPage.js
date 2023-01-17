@@ -22,7 +22,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className="Page">
-                <HeaderBox title="Home" subtitle="Homed Page" />
+                <HeaderBox title="Test Page" subtitle="" />
 
                 <Container fluid>
                 <div className="Body">

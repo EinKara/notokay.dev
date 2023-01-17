@@ -2,19 +2,20 @@ import React, { Component } from "react";
 
 // CSS
 import './css/site-extensions.css'
+import './css/links.css'
+
+import HeaderBox from "./elements/HeaderBox";
 
 export default class About extends Component {
     render() {
         return (
             <div className="Page">
-                <div className="Header">
-                    <div className="HeaderTextBox">
-                        <h1>About</h1>
-                        <h5>Info for whomever it may concern</h5>
-                    </div>
-                </div>
+                <HeaderBox title="About" subtitle="Inforatio" />
                 <div className="Body">
-                    <p>EMPT Y !!!1!!!111</p>
+                    <p>
+                        &emsp;&emsp; My name is [REDACTED]. 
+                        I do music, programming, and other things. There isn't much to include here as of the current time.
+                    </p>
                 </div>
             </div>
         )
