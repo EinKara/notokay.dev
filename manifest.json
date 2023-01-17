@@ -21,6 +21,11 @@
       "src": "picture.jpg",
       "type": "image/jpeg",
       "sizes": "938x1920"
+    },
+    {
+      "src": "test-post.png",
+      "type": "image/png",
+      "sizes": "868x647"
     }
   ],
   "start_url": ".",
