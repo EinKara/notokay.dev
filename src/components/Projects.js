@@ -17,6 +17,8 @@ import PostBox from "./elements/PostBox";
 
 import HeaderBox from "./elements/HeaderBox";
 
+import Embed from "./elements/Embed"
+
 export default class Projects extends Component {
     render() {
         return (
@@ -27,6 +29,7 @@ export default class Projects extends Component {
                 <div className="Body">
                     <Row>
                     <Col className="posts">
+                        <Embed src="https://github.com/EinKara/notokay.dev" />
                         <PostBox
                         title='NKDEV'
                         imgsrc='test-post.png'
